@@ -1,5 +1,6 @@
 package sample;
 
+<<<<<<< HEAD
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -173,8 +174,30 @@ public class Main extends Application {
         }
     }
 
+=======
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        primaryStage.setTitle("Hello World");
+        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.show();
+    }
+
+>>>>>>> 592f51da11b384a02412e690df1571e0887ac723
 
     public static void main(String[] args) {
         launch(args);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 592f51da11b384a02412e690df1571e0887ac723
