@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/JavaFX_Canvas.iml" filepath="$PROJECT_DIR$/JavaFX_Canvas.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/Turn_based_Game.iml" filepath="$PROJECT_DIR$/Turn_based_Game.iml" />
->>>>>>> 592f51da11b384a02412e690df1571e0887ac723
+      <module fileurl="file://$PROJECT_DIR$/csci2020u_final_project-master.iml" filepath="$PROJECT_DIR$/csci2020u_final_project-master.iml" />
     </modules>
   </component>
 </project>
